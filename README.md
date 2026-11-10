@@ -42,6 +42,8 @@ The default executable/library prefix is `~/.local`; the desktop entry is
 installed to `${XDG_DATA_HOME:-~/.local/share}/applications`. Override with
 `PREFIX` and/or `XDG_DATA_HOME` for a different user-local location. Uninstall
 removes the application files and desktop entry, but preserves configuration.
+The installed command is named `GnuChanBluetooth`, like the other GnuChan
+programs.
 
 ## Configuration
 

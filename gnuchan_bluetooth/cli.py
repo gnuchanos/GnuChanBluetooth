@@ -12,7 +12,7 @@ from .config import ConfigError, default_config_path, load_config
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="gnuchan-bluetooth",
+        prog="GnuChanBluetooth",
         description="Inspect and manage Bluetooth devices through BlueZ.",
         epilog="Bluetooth operations use the current user's BlueZ permissions; no root access is requested.",
     )

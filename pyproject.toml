@@ -12,7 +12,7 @@ authors = [{ name = "GnuChanOS" }]
 dependencies = []
 
 [project.scripts]
-gnuchan-bluetooth = "gnuchan_bluetooth.cli:main"
+GnuChanBluetooth = "gnuchan_bluetooth.cli:main"
 
 [tool.setuptools]
 packages = ["gnuchan_bluetooth"]

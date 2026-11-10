@@ -11,7 +11,7 @@ case "$PREFIX" in
         ;;
 esac
 
-rm -f -- "$PREFIX/bin/gnuchan-bluetooth"
+rm -f -- "$PREFIX/bin/GnuChanBluetooth" "$PREFIX/bin/gnuchan-bluetooth"
 rm -f -- "$DATA_HOME/applications/gnuchan-bluetooth.desktop"
 rm -rf -- "$PREFIX/lib/gnuchan-bluetooth"
 printf 'Uninstalled GnuChanBluetooth from %s (user configuration was preserved)\n' "$PREFIX"

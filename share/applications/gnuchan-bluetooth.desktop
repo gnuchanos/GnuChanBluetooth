@@ -2,8 +2,8 @@
 Type=Application
 Name=GnuChanBluetooth
 Comment=Manage Bluetooth devices
-Exec=gnuchan-bluetooth
-TryExec=gnuchan-bluetooth
+Exec=GnuChanBluetooth
+TryExec=GnuChanBluetooth
 Icon=bluetooth
 Terminal=false
 StartupNotify=true
